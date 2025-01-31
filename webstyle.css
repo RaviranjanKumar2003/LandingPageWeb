@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.row1{
+    height: 55px;
+    display: flex;
+    background-color: #cac3c3;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.menu a{
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    position: relative;
+}
+.home{
+    background-color: #d72c2c;
+    border-radius: 10px;
+}
+.ank{
+    color: black;
+}
+.ank2{
+    color:white;
+}
+.button1{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    font-size: 1rem;
+    color:black;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color:rgb(99, 141, 233);
+    color: white;
+    box-shadow: 2px 2px 10px green;
+}
+.button2{
+    width: 80px;
+    height: 40px;
+    font-size: 1rem;
+    background-color:rgb(99, 141, 233);
+    color: white;
+    margin-left: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: orange;
+    color: black;
+    box-shadow: 2px 2px 10px green;
+}
+.row2{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.r2c1{
+    width: 50%;
+    float: left;
+}
+.r2c1 h2{
+    font-size: 4rem;
+    margin-left: 30px;
+}
+.para1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+ul{
+    list-style-type: none; 
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    transition: 0.2s linear;
+}
+ul li:hover{
+    background-color:#d72c2c;
+    box-shadow: 2px 2px 10px green;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.button3{
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    box-shadow: 2px 2px 10px black;
+    color: rgb(235, 228, 228);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color:rgb(99, 141, 233);
+    cursor: pointer;
+}
+.button3:hover{
+    box-shadow: 2px 2px 10px green;
+    background-color: rgb(244, 196, 108);
+    color: black;
+}
+.r2c2{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: -30px;
+}
+.r2c2 img{
+    height: 500px;
+    width: 600px;
+}
+.img1{
+    margin-top: -20px;
+}
+.span1{
+    color: rgb(99, 141, 233);
+}
